@@ -1,0 +1,735 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+img {
+    line-height: 0
+}
+
+/*End of basic CSS*/
+
+.full {
+    width: 100%;
+}
+
+.main {
+    width: 960px;
+    margin: auto;
+}
+
+.topbar {
+    background: #0872b9;
+    padding: 12px 0;
+}
+
+.topbar_left {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #e7e7e7;
+    float: left;
+    width: 50%;
+}
+
+.topbar_right {
+    font-size: 14px;
+    color: #e7e7e7;
+    float: left;
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+}
+
+.topbar_right li {
+    display: inline-block;
+}
+
+.topbar_right li i {
+    font-size: 14px;
+    color: #e7e7e7;
+    padding-left: 25px;
+    transition: all .3s linear;
+    padding-top: 3px;
+}
+
+.topbar_right li:hover i {
+    color: #353535;
+    transform: scale(1.1);
+}
+/* topbar area end here */
+
+.navbar {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #353535;
+    padding: 15px 15px;
+    font-weight: 400;
+    transition: all .3s linear;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.menu ul li a:hover {
+    color: #0872b9;
+}
+
+/* ========================== 
+    banner css start
+=========================== */
+
+.banner {
+    
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+
+.theme-default .nivoSlider:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 55;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6)
+}
+.banner-txt{
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: 999
+}
+
+.banner h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 0 30px 0;
+    line-height: 27px;
+}
+
+.hire_us {
+    text-transform: uppercase;
+    font-family: 800;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #2a6eb1;
+    padding: 10px 20px;
+    margin-right: 18px;
+    background-color: #2a6eb1;
+    color: #fff;
+    transition: all 0.4s linear;
+    border: 2px solid #2a6eb1;
+}
+
+.hire_us:hover {
+    background-color: #fff;
+    color: #2a6eb1;
+}
+
+.contact {
+    text-transform: uppercase;
+    font-family: 800;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    margin-right: 18px;
+    transition: all 0.4s linear;
+}
+
+.contact:hover {
+    background: #fff;
+    color: #2a6eb1;
+}
+
+/* ========================== 
+    section title css start
+=========================== */
+
+.sec_title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sec_title h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #353535;
+    font-weight: 500;
+    line-height: 17px;
+    position: relative;
+}
+
+.sec_title h3:before {
+    content: "";
+    position: absolute;
+    background: url(../images/section_underline.png) no-repeat;
+    width: 100%;
+    height: 1px;
+    bottom: -10px;
+}
+
+/* ========================== 
+    about us css start
+=========================== */
+
+.about {
+    padding-top: 60px;
+}
+
+.about_left {
+    width: 40%;
+    float: left;
+}
+
+.about_left img {
+    width: 100%;
+}
+
+.about_right {
+    width: 60%;
+    float: left;
+    padding: 43px 0;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.about_right p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    color: #555555;
+    font-weight: 400;
+}
+
+/* ========================== 
+    services css start
+=========================== */
+
+.services {
+    padding-top: 60px;
+}
+
+.services_col {
+    width: 33.33%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 40px
+}
+
+.ser_col {
+    background: #f1f1f1;
+    padding: 50px 20px 30px 20px;
+    text-align: center;
+    transition: all .3s linear;
+    position: relative;
+}
+
+.icon_border {
+    border: 3px #fff solid;
+    background: #e4e4e4;
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    padding: 1px;
+    box-sizing: border-box;
+    position: absolute;
+    top: -41px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .8s linear;
+}
+
+.icon_bg {
+    border: 2px #fff solid;
+    background: #f1f1f1;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    transition: all .5s linear;
+}
+
+.services_col .icon_bg img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.services_col h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #353535;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.services_col p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #555555;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.services_col:hover .icon_border,
+.services_col:hover .icon_bg {
+    background: #5bc5f4;
+}
+
+.ser_col:hover {
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+}
+
+/* ========================== 
+    protfolio css start
+=========================== */
+
+.protfolio {
+    padding-top: 60px;
+}
+
+.gal_col {
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.gal_img {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+.gal_img_mar {
+    margin-bottom: 20px;
+}
+
+.img_overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .5s linear;
+}
+
+.gal_img:hover .img_overlay {
+    opacity: 1
+}
+
+.img_overlay i {
+    height: 60px;
+    width: 60px;
+    line-height: 59px;
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+
+/* ========================== 
+    team css start
+=========================== */
+
+.team {
+    padding-top: 60px;
+}
+
+.team_col {
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team_img {
+    width: 100%;
+    position: relative;
+    line-height: 0;
+    overflow: hidden;
+    transition: all .4s linear;
+}
+
+.team_img_overlay {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    right: 0;
+    top: 0;
+    transition: all .4s linear;
+    text-align: center;
+    transform: translateX(100%)
+}
+
+.team_col:hover .team_img {
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+}
+
+.team_col:hover h4 {
+    color: #5bc5f4;
+}
+
+.team_col:hover .team_img_overlay {
+    transform: translateX(0%)
+}
+
+.team_img_overlay ul {
+    padding: 14px 0;
+}
+
+.team_img_overlay li {
+    padding: 10px 0;
+}
+
+.team_img_overlay i {
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: all .4s linear;
+}
+
+.team_img_overlay li:hover i {
+    border: 1px solid #5bc5f4;
+    background: #5bc5f4;
+}
+
+.team_col h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #353535;
+    font-weight: 800;
+    padding-top: 5px;
+    transition: all .4s linear;
+}
+
+.team_col p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #555555;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* ========================== 
+    testimonial css start
+=========================== */
+
+.testimonial {
+    padding: 60px 0;
+}
+
+
+.test_col {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.test_col:hover .test_img {
+    transform: scale(1.2);
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.47);
+}
+
+.test_img {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    transition: all 0.4s linear;
+}
+
+.test_text {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+
+.test_text h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #353535;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.test_text img {
+    padding: 3px 0;
+}
+
+.test_text h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    color: #353535;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.test_text p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #555555;
+}
+
+.test_text:after {
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #f1f1f1;
+    border-left: 20px solid transparent;
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+}
+
+
+/* ========================== 
+    footer css start
+=========================== */
+
+.footer {
+    padding: 30px 0 10px 0;
+    background-color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.logo_col {
+    width: 22%;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.logo_col p {
+    font-size: 13px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.logo_col img {
+    padding-bottom: 20px;
+}
+
+.logo_col_pad_bot {
+    padding-bottom: 20px;
+}
+
+.contact_col {
+    width: 28%;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contact_row {
+    padding: 10px;
+}
+
+.icon {
+    width: 15%;
+    float: left;
+}
+
+.icon i {
+    font-size: 16px;
+    color: #ffffff;
+    background: #5bc5f4;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.contact_txt {
+    width: 85%;
+    float: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.link_col {
+    width: 15%;
+    float: left;
+}
+
+.link_left {
+    width: 50%;
+    float: left;
+}
+
+.link_right {
+    width: 50%;
+    float: left;
+}
+
+.link_col ul li a {
+    display: block;
+    color: #fff;
+    padding: 8px 0;
+    font-weight: 400;
+    transition: all .3s linear;
+}
+
+.link_col ul li a:hover {
+    color: #5bc5f4;
+}
+
+.photo_col {
+    width: 35%;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.photo_col_img {
+    width: 33.33%;
+    line-height: 0;
+    padding-right: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.photo_col_img img:hover {
+    transform: scale(1.1)
+}
+
+.photo_col_img img {
+    width: 100%;
+    padding-bottom: 20px;
+    transition: all 0.3s linear;
+}
+
+.no_pad_bot {
+    padding-bottom: 0;
+}
+
+
+/* ========================== 
+    footer_bar css start
+=========================== */
+
+.footer_bar {
+    padding: 15px 0;
+    background-color: #555555;
+    text-align: center;
+}
+
+.footer_bar p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #555555;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main a {
+    color: #5bc5f4;
+}
